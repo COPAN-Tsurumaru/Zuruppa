@@ -24,6 +24,7 @@ function handleImage(e) {
       const resizedImage = resizeAndCropToSquare(rawImage);
       resizedImage.onload = () => {
         image = resizedImage;
+        message.style.display = "none"; //クリア表示を消す
         initTiles();
         drawTiles();
       };
