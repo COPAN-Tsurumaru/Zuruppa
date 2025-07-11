@@ -7,6 +7,7 @@ body {
 
 h1 {
   margin-top: 20px;
+  color: #00552e;
 }
 
 #gameContainer {
@@ -25,6 +26,6 @@ h1 {
 #clearMessage {
   display: none;
   font-size: 24px;
-  color: green;
+  color: #00552e;
   margin-top: 20px;
 }
